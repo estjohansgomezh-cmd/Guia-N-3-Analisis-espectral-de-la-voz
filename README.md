@@ -10,7 +10,12 @@ Las grabaciones se realizaron con los micrófonos integrados de teléfonos intel
 Los archivos resultantes fueron nombrados de forma sistemática (hombre1.wav, hombre2.wav, hombre3.wav, mujer1.wav, mujer2.wav, mujer3.wav) y subidos al repositorio de GitHub del grupo para su procesamiento colaborativo.
 ##  Adquisición de las señales de voz (Parte A)
 
-### Graficas de dominio en el tiempo de las notas de voz / Datos optenidos.
+### Graficas de dominio en el tiempo de las notas de voz 
+
+<img width="2685" height="1219" alt="A1_tiempo_20260319_135541" src="https://github.com/user-attachments/assets/7b136003-53c4-494f-bd77-8b0e7627ce84" />
+
+
+### Datos optenidos.
 ### HOMBRES
 1).
 
