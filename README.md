@@ -14,9 +14,28 @@ Los archivos resultantes fueron nombrados de forma sistemática (hombre1.wav, ho
 
 <img width="2685" height="1219" alt="A1_tiempo_20260319_135541" src="https://github.com/user-attachments/assets/7b136003-53c4-494f-bd77-8b0e7627ce84" />
 
+### Transformada de Fourier y Espectro de fase
+
+#### HOMBRES
+
+<img width="2085" height="1037" alt="A2_fft_hombre1_20260319_135541" src="https://github.com/user-attachments/assets/78a839b4-9994-4428-88bf-2f2b2b5bf787" />
+<img width="2085" height="1037" alt="A2_fft_hombre2_20260319_135541" src="https://github.com/user-attachments/assets/742c5430-cff8-4f30-b2f6-6a8be4466912" />
+<img width="2085" height="1037" alt="A2_fft_hombre3_20260319_135541" src="https://github.com/user-attachments/assets/139c44f8-0a30-44bf-b695-57effdcd0d63" />
+
+
+#### MUJERES
+
+<img width="2085" height="1037" alt="A2_fft_mujer1_20260319_135541" src="https://github.com/user-attachments/assets/75848bdc-b5ac-4d43-aed0-a0d68a59b154" />
+<img width="2085" height="1037" alt="A2_fft_mujer2_20260319_135541" src="https://github.com/user-attachments/assets/3f92239b-222b-47ff-8ad9-49d20b69cfd2" />
+<img width="2085" height="1037" alt="A2_fft_mujer3_20260319_135541" src="https://github.com/user-attachments/assets/96959558-1099-4904-bda4-02309312a3c0" />
+
+#### DENSIDADES ESPECTRALES DE POTENCIA
+
+<img width="2685" height="1220" alt="A3_psd_20260319_135541" src="https://github.com/user-attachments/assets/81a30782-8fbd-4c2c-9147-fdaf83067d0e" />
+
 
 ### Datos optenidos.
-### HOMBRES
+#### HOMBRES
 1).
 
 
