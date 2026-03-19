@@ -10,6 +10,43 @@ Las grabaciones se realizaron con los micrófonos integrados de teléfonos intel
 Los archivos resultantes fueron nombrados de forma sistemática (hombre1.wav, hombre2.wav, hombre3.wav, mujer1.wav, mujer2.wav, mujer3.wav) y subidos al repositorio de GitHub del grupo para su procesamiento colaborativo.
 ##  Adquisición de las señales de voz (Parte A)
 
+### Graficas de dominio en el tiempo de las notas de voz / Datos optenidos.
+### HOMBRES
+1).
+
+
+<img width="304" height="250" alt="image" src="https://github.com/user-attachments/assets/872bb959-b6a8-46e4-8067-99c2e7c6c390" />
+
+2).
+
+<img width="330" height="250" alt="image" src="https://github.com/user-attachments/assets/513e2e9a-f698-49de-83e9-e91398551bc2" />
+
+
+3). 
+
+<img width="336" height="248" alt="image" src="https://github.com/user-attachments/assets/e2a7dd61-4366-4740-b458-6149c9b0f830" />
+
+
+### MUJERES
+
+1).
+
+<img width="320" height="251" alt="image" src="https://github.com/user-attachments/assets/f42ac7bd-b7fb-42de-8773-893c8a0ca3c1" />
+
+
+2). 
+
+<img width="281" height="248" alt="image" src="https://github.com/user-attachments/assets/d97fdce4-59d9-4df9-8973-38897b7d9a2a" />
+
+
+3). 
+
+<img width="282" height="249" alt="image" src="https://github.com/user-attachments/assets/8e86bce6-54f3-4cd3-aabd-11e6e5a5422f" />
+
+
+
+
+
 ## Medición de Jitter y Shimmer (Parte B)
 Para cada grabación se aplicó un filtro pasa-banda (80–400 Hz para hombres, 150–500 Hz para mujeres) previo a la detección de ciclos. La frecuencia fundamental ciclo a ciclo se estimó mediante cruces por cero, extrayendo los períodos Ti. El jitter se calculó como la variación promedio normalizada de períodos consecutivos. El shimmer se obtuvo de manera análoga a partir de los picos de amplitud Ai en cada ciclo. Los valores de referencia para voces sanas son jitter relativo ≤ 1 % y shimmer relativo ≤ 3–5 %.
 ## Comparación y Conclusiones (Parte C)
