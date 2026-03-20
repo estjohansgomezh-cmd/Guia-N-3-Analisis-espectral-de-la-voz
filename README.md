@@ -113,10 +113,6 @@ Los períodos de vibración Ti se determinaron a partir de la detección de cruc
 
 <img width="1874" height="1788" alt="B1_mujer3_20260319_141126" src="https://github.com/user-attachments/assets/6b009bed-a72d-4e4b-a798-f491697f647e" /><img width="422" height="191" alt="image" src="https://github.com/user-attachments/assets/7048a827-984d-41ce-88af-5f812c1dae0d" />
 
-### Resultados de jitter y shimmer
-
-<img width="849" height="285" alt="image" src="https://github.com/user-attachments/assets/dec6ff31-5239-4e65-bf76-782db477722a" />
-
 ### Registro de características espectrales
 <img width="1600" height="372" alt="image" src="https://github.com/user-attachments/assets/ce8d6fe6-0f88-4ac6-81cb-605da0337576" />
 Los índices de jitter y shimmer están elevados respecto a rangos clínicos en todas las grabaciones, lo cual refleja las limitaciones del equipo de captura más que inestabilidad vocal patológica, y demuestra la alta sensibilidad de estos parámetros a las condiciones de adquisición.
