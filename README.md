@@ -75,16 +75,32 @@ Para cada grabación se aplicó un filtro pasa-banda (80–400 Hz para hombres, 
 
 1).
 
-<img width="1866" height="1788" alt="B1_hombre1_20260319_141126" src="https://github.com/user-attachments/assets/e73cf67c-5cd3-4c40-ad26-5bd3daee1573" />
+<img width="1866" height="1788" alt="B1_hombre1_20260319_141126" src="https://github.com/user-attachments/assets/e73cf67c-5cd3-4c40-ad26-5bd3daee1573" /><img width="433" height="189" alt="image" src="https://github.com/user-attachments/assets/a1ed3e03-02cc-467a-a7ab-c97a4edb9a64" />
 
 2).
 
-<img width="1866" height="1788" alt="B1_hombre2_20260319_141126" src="https://github.com/user-attachments/assets/791480b2-591c-47f7-a087-684b1b441ed0" />
+<img width="1866" height="1788" alt="B1_hombre2_20260319_141126" src="https://github.com/user-attachments/assets/791480b2-591c-47f7-a087-684b1b441ed0" /><img width="435" height="193" alt="image" src="https://github.com/user-attachments/assets/f4189ac9-ea08-49cf-94cb-3dd090c079be" />
+
 
 3).
 
-<img width="1866" height="1788" alt="B1_hombre3_20260319_141126" src="https://github.com/user-attachments/assets/b0b1c43e-193b-4ff8-aecb-14db8c940d8d" />
+<img width="1866" height="1788" alt="B1_hombre3_20260319_141126" src="https://github.com/user-attachments/assets/b0b1c43e-193b-4ff8-aecb-14db8c940d8d" /><img width="422" height="192" alt="image" src="https://github.com/user-attachments/assets/9722927a-5387-4e9f-85bb-90e60c7b6318" />
 
+### MUJERES
+
+1).
+
+<img width="1866" height="1788" alt="B1_mujer1_20260319_141126" src="https://github.com/user-attachments/assets/80be3a72-3cff-4fbb-8e5a-7f757497a027" /><img width="413" height="184" alt="image" src="https://github.com/user-attachments/assets/81c95ae3-9d47-485a-8865-c554aaea46ae" />
+
+
+2).
+
+<img width="1866" height="1788" alt="B1_mujer2_20260319_141126" src="https://github.com/user-attachments/assets/527c0bc5-02c0-4414-b2d7-c0765d68596d" /><img width="424" height="191" alt="image" src="https://github.com/user-attachments/assets/23577c0a-0271-4c7d-8b51-5e65fef36689" />
+
+
+3).
+
+<img width="1874" height="1788" alt="B1_mujer3_20260319_141126" src="https://github.com/user-attachments/assets/6b009bed-a72d-4e4b-a798-f491697f647e" /><img width="422" height="191" alt="image" src="https://github.com/user-attachments/assets/7048a827-984d-41ce-88af-5f812c1dae0d" />
 
 ## Comparación y Conclusiones (Parte C)
 1. ¿Qué diferencias se observan en la frecuencia fundamental?
