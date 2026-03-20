@@ -34,7 +34,7 @@ Los archivos resultantes fueron nombrados de forma sistemática (hombre1.wav, ho
 <img width="2685" height="1220" alt="A3_psd_20260319_135541" src="https://github.com/user-attachments/assets/81a30782-8fbd-4c2c-9147-fdaf83067d0e" />
 
 
-### Datos optenidos.
+### Datos obtenidos.
 #### HOMBRES
 1).
 
