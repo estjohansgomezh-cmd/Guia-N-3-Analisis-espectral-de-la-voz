@@ -68,11 +68,24 @@ Los archivos resultantes fueron nombrados de forma sistemática (hombre1.wav, ho
 <img width="282" height="249" alt="image" src="https://github.com/user-attachments/assets/8e86bce6-54f3-4cd3-aabd-11e6e5a5422f" />
 
 
-
-
-
 ## Medición de Jitter y Shimmer (Parte B)
 Para cada grabación se aplicó un filtro pasa-banda (80–400 Hz para hombres, 150–500 Hz para mujeres) previo a la detección de ciclos. La frecuencia fundamental ciclo a ciclo se estimó mediante cruces por cero, extrayendo los períodos Ti. El jitter se calculó como la variación promedio normalizada de períodos consecutivos. El shimmer se obtuvo de manera análoga a partir de los picos de amplitud Ai en cada ciclo. Los valores de referencia para voces sanas son jitter relativo ≤ 1 % y shimmer relativo ≤ 3–5 %.
+
+### HOMBRES
+
+1).
+
+<img width="1866" height="1788" alt="B1_hombre1_20260319_141126" src="https://github.com/user-attachments/assets/e73cf67c-5cd3-4c40-ad26-5bd3daee1573" />
+
+2).
+
+<img width="1866" height="1788" alt="B1_hombre2_20260319_141126" src="https://github.com/user-attachments/assets/791480b2-591c-47f7-a087-684b1b441ed0" />
+
+3).
+
+<img width="1866" height="1788" alt="B1_hombre3_20260319_141126" src="https://github.com/user-attachments/assets/b0b1c43e-193b-4ff8-aecb-14db8c940d8d" />
+
+
 ## Comparación y Conclusiones (Parte C)
 1. ¿Qué diferencias se observan en la frecuencia fundamental?
 La frecuencia fundamental es el parámetro que muestra la diferencia más pronunciada entre géneros. 
