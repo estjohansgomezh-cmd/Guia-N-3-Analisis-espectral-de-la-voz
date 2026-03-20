@@ -107,7 +107,8 @@ Para cada grabación se aplicó un filtro pasa-banda (80–400 Hz para hombres, 
 
 ### Diagrama de flujo
 
-<img width="1410" height="1740" alt="image" src="https://github.com/user-attachments/assets/ba97b31f-b948-4c53-aeea-5a10e15432ac" />
+<img width="1410" height="2694" alt="image" src="https://github.com/user-attachments/assets/ee63a7c7-34e2-4b39-b22f-f058d0bcb1f5" />
+
 
 ## Comparación y Conclusiones (Parte C)
 1. ¿Qué diferencias se observan en la frecuencia fundamental?
