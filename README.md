@@ -79,6 +79,7 @@ La tabla confirma que F0 es el parámetro más discriminante entre géneros, con
 ### Diagrama de flujo
 
 <img width="1410" height="3026" alt="image" src="https://github.com/user-attachments/assets/00fa01a3-6058-48b2-a32b-8dec3168caf3" />
+
 ## Medición de Jitter y Shimmer (Parte B)
 Se implementó el cálculo de los índices de estabilidad vocal jitter y shimmer para las seis grabaciones. El procedimiento comenzó aplicando un filtro Butterworth pasa-banda de quinto orden a cada señal, con frecuencias de corte ajustadas al rango vocal de cada género: 80–400 Hz para hombres y 150–500 Hz para mujeres. Este paso elimina componentes de ruido fuera de la banda vocal que podrían distorsionar la detección de ciclos.
 
@@ -126,12 +127,29 @@ Los índices de jitter y shimmer están elevados respecto a rangos clínicos en 
 
 ## Comparación y Conclusiones (Parte C)
 1. ¿Qué diferencias se observan en la frecuencia fundamental?
-La frecuencia fundamental es el parámetro que muestra la diferencia más pronunciada entre géneros. 
+   La F0 media de las voces masculinas fue aproximadamente 115 Hz, en contraste con los 221 Hz promedio de las voces femeninas, una diferencia de casi el doble. Esta brecha refleja las diferencias anatómicas en la laringe: las cuerdas vocales de los hombres tienen mayor longitud (17–23 mm) y masa que las de las mujeres (12–17 mm), lo que reduce la frecuencia de vibración según la relación inversamente proporcional entre masa del oscilador y frecuencia de resonancia
 
-2. ¿Qué otras diferencias notan en términos de brillo, media o intensidad?
+3. ¿Qué otras diferencias notan en términos de brillo, media o intensidad?
+   El centroide espectral femenino (~2 049 Hz promedio) superó al masculino (~1 252 Hz promedio) en más de 800 Hz. Esto indica que la energía de la señal de voz femenina se distribuye hacia componentes de mayor frecuencia, incluyendo armónicos más altos. Fisiológicamente, las voces femeninas poseen una mayor cantidad de energía en las frecuencias medias y altas del espectro, lo que se percibe como un timbre más brillante y agudo.
    
-4. Redactar conclusiones sobre el comportamiento de la voz en hombres y mujeres a partir de los análisis realizados.
-5. Discuta la importancia clínica del jitter y shimmer en el análisis de la voz. 
+5. Redactar conclusiones sobre el comportamiento de la voz en hombres y mujeres a partir de los análisis realizados.
+   Las voces masculinas presentaron valores RMS ligeramente superiores (promedio 0.0848) respecto a las femeninas (0.0685). Esta diferencia puede atribuirse tanto a un mayor volumen de fonación durante la grabación como a una mayor presión subglótica en la producción vocal masculina. No obstante, la variabilidad intragrupo también puede depender del esfuerzo vocal individual de cada participante.
+   
+7. Discuta la importancia clínica del jitter y shimmer en el análisis de la voz.
+   Las voces femeninas presentaron índices de jitter relativo levemente menores (~2.0%) en comparación con las masculinas (~2.8%). El shimmer relativo también resultó inferior en mujeres (~2.5%) frente a hombres (~3.3%). Esto podría indicar mayor estabilidad en el control vocal femenino, aunque las diferencias no son suficientemente grandes para establecer conclusiones fisiológicas definitivas con el tamaño de muestra de esta práctica.
 
+### Preguntas para la discusión 
+1. ¿Cómo es la frecuencia fundamental de la densidad espectral de potencia de una voz masculina respecto a una femenina? ¿Qué hay del valor RMS?
+   La frecuencia fundamental asociada al primer pico de la densidad espectral de potencia (PSD) es significativamente menor en las voces masculinas que en las femeninas. En los resultados obtenidos, los hombres presentaron F0 entre 105 y 128 Hz, mientras que las mujeres lo hicieron entre 204 y 242 Hz. Esto se refleja en la PSD como un pico dominante desplazado hacia la izquierda (menores frecuencias) en el caso masculino, y hacia la derecha (mayores frecuencias) en el femenino. Además, los armónicos de la voz masculina se ubican más próximos entre sí en el eje de frecuencias, dado que son múltiplos de una F0 más baja.
+   En cuanto al valor RMS, que es una medida directa de la intensidad o energía de la señal, los resultados mostraron valores ligeramente mayores en las voces masculinas (0.079 a 0.091) frente a las femeninas (0.065 a 0.071). Sin embargo, esta diferencia refleja principalmente el esfuerzo vocal durante la grabación y no es una propiedad fisiológica intrínseca e invariable del género. En condiciones controladas de presión sonora idéntica, las diferencias de RMS tienden a ser mínimas entre géneros.
+   
+2. ¿Qué limitaciones plantea el uso de jitter y shimmer para la detección de patologías como disartrias y afasias?
+   El jitter y el shimmer son indicadores valiosos de la inestabilidad vocal ciclo a ciclo, y su uso está bien establecido en la evaluación de trastornos de la voz como disfonía, nódulos vocales, parálisis de cuerdas vocales y algunos trastornos neurodegenerativos (como la enfermedad de Parkinson). No obstante, su aplicación directa a la detección de disartrias y afasias presenta limitaciones importantes:
+   Naturaleza del trastorno: Las disartrias son alteraciones motoras del habla que afectan la articulación, la prosodia y la resonancia, pero no exclusivamente la vibración laríngea. El jitter y el shimmer capturan únicamente variabilidad en la fuente glótica, dejando fuera los componentes articulatorios y supraglóticos que caracterizan a las disartrias. Las afasias, por su parte, son trastornos del lenguaje de origen cortical que impactan la comprensión y producción lingüística, no la mecánica de vibración de las cuerdas vocales, por lo que jitter y shimmer prácticamente no aportan información diagnóstica en este caso.
+   Sensibilidad y especificidad: Los valores de jitter y shimmer pueden elevarse por causas múltiples (tensión vocal, fatiga, ruido en la grabación, algoritmo de detección de ciclos), lo que reduce su especificidad diagnóstica. Un paciente con disartria espástica puede presentar jitter elevado, pero también lo puede hacer un hablante sano grabado en condiciones subóptimas.
+   Dependencia del método de cálculo: Los resultados varían considerablemente según el algoritmo de detección de períodos (cruces por cero, autocorrelación, detección de picos), la frecuencia de muestreo, el filtrado previo y el segmento analizado. Esto dificulta la comparación entre estudios y la definición de umbrales clínicos universales.
+   Insuficiencia como medida aislada: Ninguno de los dos índices, por sí solo, permite diferenciar entre distintas patologías vocales o del habla. Su utilidad clínica se maximiza cuando se combinan con análisis acústicos complementarios (espectrograma, formantes, medidas de turbulencia como la relación armónico-ruido) y con evaluación perceptual y endoscópica.
+   Limitaciones en habla continua: Jitter y shimmer se calculan de forma óptima sobre vocales sostenidas y estables. En habla continua, la variación natural de F0 y amplitud inherente a la prosodia del discurso contamina los estimados, dificultando la distinción entre variabilidad patológica y variabilidad lingüística normal.
 
- 
+En conclusión, jitter y shimmer son herramientas útiles como parte de una batería de evaluación vocal, pero resultan insuficientes como único criterio diagnóstico para trastornos complejos del habla y el lenguaje como la disartria o la afasia, donde se requiere un enfoque multidimensional que integre parámetros acústicos, lingüísticos y neurológicos.
+
